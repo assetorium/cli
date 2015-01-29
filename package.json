@@ -1,0 +1,26 @@
+{
+	"name": "assetorium-cli",
+	"description": "Command-line interface for Assetorium",
+	"version": "0.0.1",
+	"author": "kdi",
+	"contributors": [
+		{ "name": "Makis Tracend", "email": "makis@kdi.co" }
+	],
+	"homepage": "http://assetorium.com",
+	"keywords": ["assetorium", "api", "cli", "json"],
+	"repository": {
+	"type": "git",
+		"url": "git://github.com/assetorium/cli.git"
+	},
+	"engines": { "node": ">=0.8.x" },
+	"main": "index",
+	"bin": {
+		"assetorium": "bin/assetorium"
+	},
+	"dependencies": {
+		"commander": "2.1.0",
+		"assetorium": "*",
+		"prompt": "0.2.12",
+		"underscore": "1.7.0"
+	}
+}
